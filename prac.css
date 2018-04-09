@@ -29,11 +29,12 @@ p {
 }
 
 main {
-  min-width: 320px;
-  max-width: 800px;
+  min-width: 100%;
+  max-width: 100%;
   padding: 50px;
   margin: 0 auto;
   background: #fff;
+    min-height:100%;
 }
 
 section {
@@ -55,6 +56,7 @@ label {
   color: #bbb;
   border: 1px solid transparent;
 }
+
 
 label:before {
   font-family: fontawesome;
@@ -110,7 +112,7 @@ input:checked + label {
 
 .icon-bar a {
     float: left;
-    width: 20%;
+    width: 15.5%;
     text-align: center;
     padding: 12px 0;
     transition: all 0.3s ease;
@@ -123,8 +125,8 @@ input:checked + label {
 }
 .icon-bars a {
     float: left;
-    width: 50%;
-    text-align: center;
+    width:100%;
+    text-align: left;
     padding: 12px 0;
     transition: all 0.3s ease;
     color: white;
