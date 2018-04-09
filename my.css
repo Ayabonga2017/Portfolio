@@ -1,18 +1,21 @@
 img {
   border-radius:90%;
+  height: 200px;
+  width: 200px;
+    border-radius:90%
 }
 .basic{
   float: left;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
     border-radius:90%;
     padding-right: 15px;
 
 }
 .boot{
   float: left;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
     border-radius:90%;
     padding-right: 15px;
 
@@ -21,8 +24,8 @@ img {
 }
 .Grid{
   float: right;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
     border-radius:90%;
     padding-right: 15px;
 }
