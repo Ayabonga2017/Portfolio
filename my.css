@@ -1,6 +1,33 @@
 img {
   border-radius:90%;
 }
+.basic{
+  float: left;
+  height: 300px;
+  width: 300px;
+    border-radius:90%;
+    padding-right: 15px;
+    padding: 10px;
+}
+.boot{
+  float: left;
+  height: 300px;
+  width: 300px;
+    border-radius:90%;
+    padding-right: 15px;
+  padding: 10px;
+
+
+}
+.Grid{
+  float: right;
+  height: 300px;
+  width: 300px;
+    border-radius:90%;
+    padding-right: 15px;
+
+  padding: 10px;
+}
 
 p.clear{
   clear:both;
@@ -13,7 +40,7 @@ div {
 
 .Image {
     float: left;
-
+padding-right: 15px;
     height: 100px;
     width: 100px;
 }

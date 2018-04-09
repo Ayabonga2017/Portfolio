@@ -39,7 +39,7 @@ main {
 
 section {
   display: none;
-  padding: 20px 0 0;
+  padding: 30px 0 0;
   border-top: 1px solid #ddd;
 }
 
@@ -121,14 +121,23 @@ input:checked + label {
 }
 
 .icon-bar a:hover {
-    background-color:white;
+    background-color:aqua;
 }
 .icon-bars a {
-    float: left;
-    width:100%;
-    text-align: left;
-    padding: 12px 0;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
+  float: left;
+  width: 25.5%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: purple;
+  font-size: 19px;
 }
+
+.icon-bars {
+    width:100%;
+    background-color: #55;
+    overflow: auto;
+  }
+  .icon-bars a:hover {
+      background-color:aqua;
+  }
